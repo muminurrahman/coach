@@ -13,7 +13,7 @@ function call() {
   const direction = ["Left", "Right"];
   const boxingMoves = ["Jab", "Cross", "Hook", "Uppercut", "Slip", "Roll", "Horizontal Elbow", "Hook Elbow", "Downward Elbow", "Uppercut Elbow", "Hook Elbow", "Spinning Elbow", "High kick", "Low kick", "Kick", "Teep", "Knee"];
 
-  const sessionDuration = 60 * 1000; // 60 seconds
+  const sessionDuration = 60 * 10000; // 60 seconds
   const intervalMin = 3000; // Minimum interval in milliseconds
   const intervalMax = 5000; // Maximum interval in milliseconds
 
